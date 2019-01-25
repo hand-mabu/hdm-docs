@@ -1,0 +1,15 @@
+logo:
+  text: HDMDocs
+  type: link
+  path: index.html
+
+main:
+- text: HDM
+  type: label
+- text: HDM概述
+  type: link
+  path: index.html
+  children:
+  - text: HDM核心功能介绍
+    type: link
+    path: index.html
