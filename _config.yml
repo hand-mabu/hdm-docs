@@ -92,3 +92,7 @@ deploy:
   repo:
       github: https://github.com/hand-mabu/hdm-docs.git,master
   branch: master
+
+node_sass:
+  includePaths:
+   - node_modules
