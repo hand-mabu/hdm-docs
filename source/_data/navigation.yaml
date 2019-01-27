@@ -1,15 +1,38 @@
 logo:
-  text: HDMDocs
+  text: HDM产品手册
   type: link
   path: index.html
 
 main:
-- text: HDM
-  type: label
 - text: HDM概述
   type: link
   path: index.html
-  children:
-  - text: HDM核心功能介绍
-    type: link
-    path: index.html
+- text: HDM产品介绍
+  type: label
+- text: 组织架构
+  type: link
+  path: 01组织架构.html
+- text: 数据采集
+  type: link
+  path: 02数据采集.html
+- text: 维度管理
+  type: link
+  path: 03维度管理.html
+- text: 程序管理
+  type: link
+  path: 04程序管理.html
+- text: ODI/INFA管理
+  type: link
+  path: 05ODI_INFA管理.html
+- text: 预算系统审批流
+  type: link
+  path: 06预算系统审批流.html
+- text: 工作流
+  type: link
+  path: 07工作流.html
+- text: 系统管理
+  type: link
+  path: 08系统管理.html
+- text: 技术架构体系
+  type: link
+  path: 09技术架构体系.html
