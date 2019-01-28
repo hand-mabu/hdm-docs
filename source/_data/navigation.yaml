@@ -15,12 +15,13 @@ main:
 - text: 数据采集
   type: link
   path: 02数据采集.html
-- text: 维度管理
-  type: link
-  path: 03维度管理.html
-- text: 程序管理
-  type: link
-  path: 04程序管理.html
+  children: 
+  - text: 维度管理
+    type: link
+    path: 03维度管理.html
+  - text: 程序管理
+    type: link
+    path: 04程序管理.html
 - text: ODI/INFA管理
   type: link
   path: 05ODI_INFA管理.html
