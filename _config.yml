@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: HDMDocs
-subtitle: HDM官方手册
-description: HDM官方手册
+title: HDM产品手册
+subtitle: HDM产品手册
+description: HDM产品手册
 keywords:
 author: Hikari
 language: zh_Hans
@@ -79,7 +79,7 @@ theme: ../node_modules/hexo-theme-doc
 theme_config:
   favicon: images/favicon.ico
   support:
-    link_url: 'http://www.baidu.com'
+    link_url: 'https://pan.baidu.com/s/17OjyMbIA75L8Rvu1CcnTnA'
     text: '© Copyright 2013-2019 Hand-Mabu <br> <br> click here to download' # default
     link_text: 'HDM产品手册' # default
     navigation: true # default
