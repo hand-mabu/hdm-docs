@@ -24,7 +24,7 @@
   </head>
   <body>
 
-   <script>window.__INITIAL_STATE__ = {"page":{"title":"技术架构体系","path":"07技术架构体系.html","support":{"link_url":"http://www.baidu.com","link_text":"HDM产品手册","text":"© Copyright 2013-2019 Hand-Mabu <br> <br> click here to download","navigation":true,"navigation_label":"Downloads"}},"data":{"navigation":{"logo":{"text":"HDM产品手册","type":"link","path":"index.html"},"main":[{"text":"HDM概述","type":"link","path":"index.html"},{"text":"HDM产品介绍","type":"label"},{"text":"组织架构","type":"link","path":"01组织架构.html"},{"text":"数据采集","type":"link","path":"02数据采集.html","children":[{"text":"模板管理","type":"link","path":"02-01模板管理.html"},{"text":"维度管理","type":"link","path":"02-02维度管理.html"},{"text":"程序管理","type":"link","path":"02-03程序管理.html"}]},{"text":"ODI/INFA管理","type":"link","path":"03ODI_INFA管理.html"},{"text":"预算系统审批流","type":"link","path":"04预算系统审批流.html"},{"text":"工作流","type":"link","path":"05工作流.html"},{"text":"系统管理","type":"link","path":"06系统管理.html","children":[{"text":"HDM审计记录","type":"link","path":"06-01HDM审计记录.html"},{"text":"账户管理","type":"link","path":"06-02账户管理.html"},{"text":"功能管理","type":"link","path":"06-03功能管理.html"}]},{"text":"技术架构体系","type":"link","path":"07技术架构体系.html"}]}},"config":{"timezone":null,"root":"/hdm-docs/","time_format":"HH:mm:ss","theme":"../node_modules/hexo-theme-doc","theme_config":{"swagger_ui":{"version":2,"permalinks":true,"api_explorer":true,"download":"Download specification","show_extensions":false,"deep_linking":true,"display_operation_id":false,"doc_expansion":"none"},"search":{"skip":false,"background":false,"route":"/lunr.json"},"favicon":"images/favicon.ico","support":{"link_url":"http://www.baidu.com","link_text":"HDM产品手册","text":"© Copyright 2013-2019 Hand-Mabu <br> <br> click here to download","navigation":true,"navigation_label":"Downloads"}}}}</script>
+   <script>window.__INITIAL_STATE__ = {"page":{"title":"技术架构体系","path":"07技术架构体系.html","support":{"link_url":"http://www.baidu.com","link_text":"HDM产品手册","text":"© Copyright 2013-2019 Hand-Mabu <br> <br> click here to download","navigation":true,"navigation_label":"Downloads"}},"data":{"navigation":{"logo":{"text":"HDM产品手册","type":"link","path":"index.html"},"main":[{"text":"HDM概述","type":"link","path":"index.html"},{"text":"HDM产品介绍","type":"label"},{"text":"组织架构","type":"link","path":"01组织架构.html"},{"text":"数据采集","type":"link","path":"02数据采集.html"},{"text":"ODI/INFA管理","type":"link","path":"03ODI_INFA管理.html"},{"text":"预算系统审批流","type":"link","path":"04预算系统审批流.html"},{"text":"工作流","type":"link","path":"05工作流.html"},{"text":"系统管理","type":"link","path":"06系统管理.html"},{"text":"技术架构体系","type":"link","path":"07技术架构体系.html"}]}},"config":{"timezone":null,"root":"/hdm-docs/","time_format":"HH:mm:ss","theme":"../node_modules/hexo-theme-doc","theme_config":{"swagger_ui":{"version":2,"permalinks":true,"api_explorer":true,"download":"Download specification","show_extensions":false,"deep_linking":true,"display_operation_id":false,"doc_expansion":"none"},"search":{"skip":false,"background":false,"route":"/lunr.json"},"favicon":"images/favicon.ico","support":{"link_url":"http://www.baidu.com","link_text":"HDM产品手册","text":"© Copyright 2013-2019 Hand-Mabu <br> <br> click here to download","navigation":true,"navigation_label":"Downloads"}}}}</script>
 
     <div id="react-navigation-root"><div class="doc-navigation" data-reactroot=""><nav class="doc-navbar"><a href="/hdm-docs/index.html" class="doc-navbar__logo"><img src="/hdm-docs/images/logo.png" class="doc-navbar__logo__img"><span class="doc-navbar__logo__text">HDM产品手册</span></a><i class="dc-icon dc-icon--close dc-icon--interactive doc-sidebar-close doc-navbar__sidebar-close doc-navbar__sidebar-close--desktop"></i><i class="dc-icon dc-icon--menu dc-icon--interactive doc-sidebar-toggle doc-navbar__sidebar-toggle"></i></nav><nav class="doc-sidebar"><div class="doc-sidebar__vertical-menu"><i class="dc-icon dc-icon--menu dc-icon--interactive doc-sidebar-toggle doc-sidebar-toggle--primary doc-sidebar__vertical-menu__item"></i><i class="dc-icon dc-icon--search dc-icon--interactive doc-sidebar__vertical-menu__item doc-sidebar__vertical-menu__item--primary"></i></div><div class="doc-sidebar-content"><div class="doc-sidebar__search-form"></div><ul class="doc-sidebar-list"><li class="doc-sidebar-list__item doc-sidebar-list__item--label"><span class="">Downloads</span></li><li class="doc-sidebar-list__item doc-sidebar-list__item--link"><a class="" href="http://www.baidu.com" target="_blank"><span>HDM产品手册</span></a></li></ul></div></nav></div></div>
     <div class="doc-content">
@@ -32,7 +32,19 @@
     <div class="dc-card">
       <div id="react-search-results-root"></div>
       <div id="page-content" class="doc-formatting">
-        <h1 id="HDM-技术架构体系"><a href="#HDM-技术架构体系" class="headerlink" title="HDM-技术架构体系"></a>HDM-技术架构体系</h1><p>技术架构体系…</p>
+        <h1 id="HDM-技术架构体系"><a href="#HDM-技术架构体系" class="headerlink" title="HDM-技术架构体系"></a>HDM-技术架构体系</h1><p>通过以下几个技术层面来介绍HDM。</p>
+<h2 id="应用服务器"><a href="#应用服务器" class="headerlink" title="应用服务器"></a>应用服务器</h2><p>HDM使用<code>war</code>包来发布。</p>
+<p>应用服务器可以选择<code>Tomcat</code>、<code>Weblogic</code>等来部署。</p>
+<h2 id="数据存储层"><a href="#数据存储层" class="headerlink" title="数据存储层"></a>数据存储层</h2><p>数据存储层使用redis和关系型数据库</p>
+<blockquote>
+<p>目前支持<code>Oracle</code>、<code>Mysql</code>、<code>SqlServer</code>，根据客户自身情况选择</p>
+</blockquote>
+<h2 id="前端展示层"><a href="#前端展示层" class="headerlink" title="前端展示层"></a>前端展示层</h2><p>系统在浏览器上支持 <code>IE9</code> 及以上，<code>Edge</code>，<code>Safari9.1</code>及以上，<code>Firefox3.6</code>及以上，<code>Chrome</code>等。</p>
+<h2 id="框架层"><a href="#框架层" class="headerlink" title="框架层"></a>框架层</h2><p>HDM均使用<strong>开源框架</strong>，用户无需担心协议问题。</p>
+<blockquote>
+<p>HDM是基于公司成熟的HAP系统进行的开发</p>
+</blockquote>
+<h2 id="拓展"><a href="#拓展" class="headerlink" title="拓展"></a>拓展</h2><p>HDM支持<strong>负载均衡</strong>、<strong>单点登录</strong>等。</p>
 
         <div id="react-support-footer-root"></div>
       </div>
