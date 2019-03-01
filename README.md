@@ -6,22 +6,21 @@
 * **安装 hexo** (一个博客框架平台)
   * 安装 `hexo`
 
-        ```
+
             npm install -g hexo-cli
-        ```
+
     
   * 拉取代码(以产品手册为例)
 
-        ```
+
             git clone -b dev https://github.com/hand-mabu/hdm-docs.git
-        ```
+
   
   * 尝试本地启动
     
-        ```
-	       cd hdm-docs
-	       hexo s (顺利启动并打开localhost:4000便可以看到)
-        ```
+            cd hdm-docs
+            hexo s (顺利启动并打开localhost:4000便可以看到)
+
 	   
 * **使用 markdown 写法编写文档**
 
