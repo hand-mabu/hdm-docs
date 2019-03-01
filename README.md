@@ -4,25 +4,24 @@
 * **安装 node.js**
 	* [Node 官网地址](http://nodejs.cn/download/)
 * **安装 hexo** (一个博客框架平台)
-  * 安装`hexo`
-  
+  * 安装 `hexo`
+
         ```
-        npm install -g hexo-cli
+            npm install -g hexo-cli
         ```
     
-	   
-	* 拉取代码(以产品手册为例)
-	
-	   ```
-	   git clone -b dev https://github.com/hand-mabu/hdm-docs.git
-	   ```
-	   
-	* 尝试本地启动
+  * 拉取代码(以产品手册为例)
 
-	   ```
-	   cd hdm-docs
-	   hexo s (顺利启动并打开localhost:4000便可以看到)
-	   ```
+        ```
+            git clone -b dev https://github.com/hand-mabu/hdm-docs.git
+        ```
+  
+  * 尝试本地启动
+    
+        ```
+	       cd hdm-docs
+	       hexo s (顺利启动并打开localhost:4000便可以看到)
+        ```
 	   
 * **使用 markdown 写法编写文档**
 
