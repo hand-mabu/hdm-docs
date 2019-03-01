@@ -31,6 +31,6 @@
 * **部署流程**
 	* 检查本地文档无误
 	* `cd hdm-docs` ---进入文档文件夹
-	* `git commit -am "[UPDATE]说明更新了哪些"` ---commit修改请求
+	* `git commit -am "[UPDATE]说明更新了哪些"` ---commit修改请求 如果不行还请先 `git add .` `git commit -m "..."`
 	* `git push origin dev` ---提交代码到dev分支
 	* `hexo d` ---提交代码到master
